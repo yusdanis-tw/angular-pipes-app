@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 @Component({
   selector: 'app-basicos',
   templateUrl: './basicos.component.html',
-  styles: [
-  ]
+  styles: [],
 })
 export class BasicosComponent {
-
+  nombreLower: string = 'yusdanis'
+  nombreUpper: string = 'YUSDANIS'
+  nombreCompleto: string = 'YuSdaNis fEUs'
 }
