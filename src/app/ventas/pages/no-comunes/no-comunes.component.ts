@@ -37,4 +37,20 @@ export class NoComunesComponent {
     edad: 37,
     dirreccion: 'Quito, Ecuador',
   }
+
+  // Json Pipe
+  herores = [
+    {
+      nombre: 'Superman',
+      vuela: true,
+    },
+    {
+      nombre: 'Robin',
+      vuela: false,
+    },
+    {
+      nombre: 'Aquaman',
+      vuela: false,
+    },
+  ]
 }
